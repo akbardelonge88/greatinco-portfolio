@@ -180,3 +180,11 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 })();
 
+const toggle = document.getElementById("menuToggle");
+const menu = document.querySelector(".topnav-menu");
+
+if(toggle){
+    toggle.addEventListener("click", () => {
+        menu.classList.toggle("active");
+    });
+}
