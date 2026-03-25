@@ -2030,6 +2030,7 @@ PRODUCT PAGE LAYOUT
 
 .hero {
   padding: 120px 0;
+  margin-top: -80px;
   background: #f8fafc;
 }
 
