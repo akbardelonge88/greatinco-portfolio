@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Galeri - Greatinco</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="img/greatinco_favicon_pack/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/greatinco_favicon_pack/favicon_32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/greatinco_favicon_pack/favicon_16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/greatinco_favicon_pack/favicon_180.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+  <div id="page-loader">
+    <div class="loader-content">
+      <img src="img/Greatinco by Pepper.png" class="loader-logo" alt="Greatinco Loader Logo" />
+      <div class="loader-pattern">
+        <img src="img/Logogram Greatinco.png" alt="">
+        <img src="img/Logogram Greatinco.png" alt="">
+        <img src="img/Logogram Greatinco.png" alt="">
+        <img src="img/Logogram Greatinco.png" alt="">
+      </div>
+    </div>
+  </div>
+
+  <header>
+    <div class="container">
+      <nav class="topnav">
+        <div class="logo">
+          <img src="img/FA Greatinco New-gradient.png" alt="Greatinco Logo" width="240" height="38">
+        </div>
+
+        <button class="menu-toggle" id="menuToggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <ul class="topnav-menu" id="mainMenu">
+          <li><a href="index.html">Beranda</a></li>
+
+          <li class="has-dropdown">
+            <a href="About-Us-ID.html">Perusahaan ▾</a>
+            <div class="dropdown-menu">
+              <a href="About-Us-ID.html">Tentang Kami</a>
+              <a href="OurTeam-ID.html">Tim Kepemimpinan</a>
+              <a href="StructureOrganization-ID.html">Struktur Organisasi</a>
+            </div>
+          </li>
+
+          <li class="has-dropdown">
+            <a href="OurService-ID.html">Layanan Kami ▾</a>
+            <div class="dropdown-menu">
+              <a href="Credit-Servicing-Recovery-ID.html">Credit Servicing & Recovery</a>
+              <a href="FieldCollection-ID.html">Portfolio Strategy & Investment</a>
+              <a href="Telemarketing-ID.html">Collection Support & Manpower</a>
+              <a href="Telemarketing-ID.html">Collection Technology & Monitoring</a>
+            </div>
+          </li>
+
+          <li class="has-dropdown">
+            <a href="OurActivity-Galery-ID.html" class="active">Kegiatan Kami ▾</a>
+            <div class="dropdown-menu">
+              <a href="OurActivity-Galery-ID.html" class="active">Galeri</a>
+              <a href="services.html">Pelatihan</a>
+            </div>
+          </li>
+
+          <li><a href="Contact-Us-ID.html">Hubungi Kami</a></li>
+        </ul>
+
+        <div class="lang-switcher" id="langSwitcher">
+          <button class="lang-trigger" id="langTrigger" type="button" aria-expanded="false" aria-haspopup="true">
+            <span class="lang-flag lang-flag-id" aria-hidden="true"></span>
+            <span class="lang-label">Indonesia</span>
+            <span class="lang-arrow" aria-hidden="true">⌃</span>
+          </button>
+
+          <div class="lang-menu" id="langMenu">
+            <a href="OurActivity-Galery-ID.html" class="lang-option active">
+              <span class="lang-flag lang-flag-id" aria-hidden="true"></span>
+              <span>Indonesia</span>
+            </a>
+            <a href="OurActivity-Galery-US.html" class="lang-option">
+              <span class="lang-flag lang-flag-en" aria-hidden="true"></span>
+              <span>English</span>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="gallery-hero gallery-first-section">
+    <div class="container">
+      <div class="gallery-hero-content">
+        <div class="fc-kicker">Galeri Perusahaan</div>
+        <h1 class="gallery-title">Kegiatan Greatinco</h1>
+        <p class="gallery-subtitle">
+          Dokumentasi kegiatan perusahaan, event, aktivitas operasional, kebersamaan tim,
+          dan momen penting Greatinco dalam bentuk foto dan video.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery-section">
+    <div class="container">
+      <div class="gallery-filter">
+        <button class="gallery-filter-btn active" data-filter="all">Semua</button>
+        <button class="gallery-filter-btn" data-filter="photo">Foto</button>
+        <button class="gallery-filter-btn" data-filter="video">Video</button>
+      </div>
+
+      <div class="gallery-grid">
+        <article class="gallery-card" data-type="photo event">
+          <button class="gallery-open" data-kind="gallery" data-title="Training Refreshment Session"
+            data-images='["Gallery/Training-Refreshment2.jpg","Gallery/Training-Refreshment.jpg","Gallery/Training-Refreshment3.jpg","Gallery/Training-Refreshment4.jpg"]'>
+            <div class="gallery-media gallery-stack">
+              <img src="Gallery/Training-Refreshment2.jpg" alt="Training Refreshment">
+              <span class="gallery-count"><i class="fa-regular fa-images"></i> 4 Foto</span>
+            </div>
+            <div class="gallery-info">
+              <span class="gallery-badge">Foto</span>
+              <h3>Training Refreshment Session</h3>
+              <p>Sesi penyegaran dan penguatan kompetensi tim untuk menjaga kualitas layanan, produktivitas, dan standar
+                operasional perusahaan.</p>
+            </div>
+          </button>
+        </article>
+
+        <article class="gallery-card" data-type="photo event">
+          <button class="gallery-open" data-kind="gallery" data-title="Iftar Gathering – Head Office"
+            data-images='["Gallery/Bukber-ho-2026.jpeg","Gallery/Bukber-ho-2026-1.jpeg","Gallery/Bukber-ho-2026-3.jpeg","Gallery/Bukber-ho-2026-4.jpeg"]'>
+            <div class="gallery-media gallery-stack">
+              <img src="Gallery/Bukber-ho-2026.jpeg" alt="Iftar Gathering – Head Office">
+              <span class="gallery-count"><i class="fa-regular fa-images"></i> 4 Foto</span>
+            </div>
+            <div class="gallery-info">
+              <span class="gallery-badge">Foto</span>
+              <h3>Iftar – Head Office</h3>
+              <p>Momen kebersamaan tim Head Office dalam suasana Ramadan untuk mempererat kolaborasi, silaturahmi, dan
+                semangat kekeluargaan.</p>
+            </div>
+          </button>
+        </article>
+
+        <article class="gallery-card" data-type="video event">
+          <button class="gallery-open" data-kind="video" data-src="video/Iftar-Malang.mp4"
+            data-title="Ramadan Iftar Gathering – Malang Branch">
+            <div class="gallery-media gallery-video-thumb">
+              <img src="Gallery/Bukber-malang-2026.jpeg" alt="Ramadan Iftar Gathering – Malang Branch">
+              <span class="gallery-play">▶</span>
+            </div>
+            <div class="gallery-info">
+              <span class="gallery-badge gallery-badge-video">Video</span>
+              <h3>Iftar – Malang Branch</h3>
+              <p>Kegiatan kebersamaan tim cabang Malang dalam memperkuat teamwork dan membangun hubungan kerja yang
+                harmonis.</p>
+            </div>
+          </button>
+        </article>
+
+        <article class="gallery-card" data-type="video internal">
+          <button class="gallery-open" data-kind="video" data-src="video/Iftar-Malang.mp4"
+            data-title="Video Aktivitas Tim">
+            <div class="gallery-media gallery-video-thumb">
+              <img src="images/gallery/video-thumb-iftar-malang.jpg" alt="Video Aktivitas Tim">
+              <span class="gallery-play">▶</span>
+            </div>
+            <div class="gallery-info">
+              <span class="gallery-badge gallery-badge-video">Video</span>
+              <h3>Video Aktivitas Tim</h3>
+              <p>Kegiatan kebersamaan tim cabang Malang dalam memperkuat teamwork dan membangun hubungan kerja yang
+                harmonis.</p>
+            </div>
+          </button>
+        </article>
+
+        <article class="gallery-card" data-type="video internal">
+          <button class="gallery-open" data-kind="video" data-src="video/Iftar-Malang.mp4"
+            data-title="Video Aktivitas Tim">
+            <div class="gallery-media gallery-video-thumb">
+              <img src="images/gallery/video-thumb-iftar-malang.jpg" alt="Video Aktivitas Tim">
+              <span class="gallery-play">▶</span>
+            </div>
+            <div class="gallery-info">
+              <span class="gallery-badge gallery-badge-video">Video</span>
+              <h3>Video Aktivitas Tim</h3>
+              <p>Kegiatan kebersamaan tim cabang Malang dalam memperkuat teamwork dan membangun hubungan kerja yang
+                harmonis.</p>
+            </div>
+          </button>
+        </article>
+
+        <article class="gallery-card" data-type="video internal">
+          <button class="gallery-open" data-kind="video" data-src="video/Iftar-Malang.mp4"
+            data-title="Video Aktivitas Tim">
+            <div class="gallery-media gallery-video-thumb">
+              <img src="images/gallery/video-thumb-iftar-malang.jpg" alt="Video Aktivitas Tim">
+              <span class="gallery-play">▶</span>
+            </div>
+            <div class="gallery-info">
+              <span class="gallery-badge gallery-badge-video">Video</span>
+              <h3>Video Aktivitas Tim</h3>
+              <p>Kegiatan kebersamaan tim cabang Malang dalam memperkuat teamwork dan membangun hubungan kerja yang
+                harmonis.</p>
+            </div>
+          </button>
+        </article>
+
+        <article class="gallery-card" data-type="video internal">
+          <button class="gallery-open" data-kind="video" data-src="video/Iftar-Malang.mp4"
+            data-title="Video Aktivitas Tim">
+            <div class="gallery-media gallery-video-thumb">
+              <img src="images/gallery/video-thumb-iftar-malang.jpg" alt="Video Aktivitas Tim">
+              <span class="gallery-play">▶</span>
+            </div>
+            <div class="gallery-info">
+              <span class="gallery-badge gallery-badge-video">Video</span>
+              <h3>Video Aktivitas Tim</h3>
+              <p>Kegiatan kebersamaan tim cabang Malang dalam memperkuat teamwork dan membangun hubungan kerja yang
+                harmonis.</p>
+            </div>
+          </button>
+        </article>
+      </div>
+
+      <div class="gallery-pagination"></div>
+    </div>
+  </section>
+
+  <div class="gallery-lightbox" id="galleryLightbox" aria-hidden="true">
+    <div class="gallery-lightbox-overlay"></div>
+    <div class="gallery-lightbox-dialog gallery-lightbox-dialog-slider">
+      <button class="gallery-lightbox-close" id="galleryLightboxClose" aria-label="Tutup">×</button>
+      <button class="gallery-nav gallery-nav-prev" id="galleryPrevBtn" aria-label="Sebelumnya">❮</button>
+      <button class="gallery-nav gallery-nav-next" id="galleryNextBtn" aria-label="Berikutnya">❯</button>
+
+      <div class="gallery-lightbox-body" id="galleryLightboxBody"></div>
+
+      <div class="gallery-lightbox-footer">
+        <div class="gallery-lightbox-caption" id="galleryLightboxCaption"></div>
+        <div class="gallery-lightbox-counter" id="galleryLightboxCounter"></div>
+      </div>
+
+      <div class="gallery-thumbs" id="galleryThumbs"></div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <img src="img/FA Greatinco New-white.png" class="footer-logo" alt="Greatinco Logo White">
+        <div class="socials">
+          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Menu</h4>
+        <a href="About-Us-ID.html">Perusahaan</a>
+        <a href="OurService-ID.html">Layanan Kami</a>
+        <a href="OurActivity-Galery-ID.html">Kegiatan Kami</a>
+        <a href="Contact-Us-ID.html">Hubungi Kami</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Hubungi Kami</h4>
+        <a href="mailto:info@greatinco.co.id">info@greatinco.co.id</a>
+        <a href="#">@greatinco</a>
+        <a href="tel:+622150928827">(021) 50928827</a>
+        <a href="https://wa.me/6285612345678" target="_blank" rel="noopener">0856-1234-5678</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Kantor Pusat</h4>
+        <p>Treasury Tower Floor 31,<br>SCBD, South Jakarta<br>DKI Jakarta</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Kantor Cabang</h4>
+        <p>Graha EMG <br>Tumenggung Suryo <br>Bunulrejo, Blimbing<br>Malang, East Java</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">© 2026 Greatinco. All Rights Reserved.</div>
+  </footer>
+
+  <a href="https://wa.me/6281234567890" class="wa-float" target="_blank" rel="noopener" aria-label="Chat WhatsApp">
+    <svg viewBox="0 0 24 24">
+      <path fill="white"
+        d="M20.52 3.48A11.82 11.82 0 0012.05 0C5.47 0 .08 5.39.08 11.97c0 2.11.55 4.17 1.6 5.99L0 24l6.21-1.63a11.93 11.93 0 005.84 1.49h.01c6.58 0 11.97-5.39 11.97-11.97 0-3.19-1.24-6.18-3.51-8.41zM12.06 21.3h-.01a9.3 9.3 0 01-4.73-1.29l-.34-.2-3.69.97.99-3.6-.22-.37a9.28 9.28 0 01-1.43-4.94c0-5.13 4.18-9.31 9.31-9.31 2.49 0 4.83.97 6.6 2.74a9.27 9.27 0 012.73 6.6c0 5.13-4.18 9.3-9.31 9.3zm5.1-6.94c-.28-.14-1.64-.81-1.89-.9-.25-.09-.43-.14-.61.14-.18.28-.7.9-.86 1.08-.16.18-.32.21-.6.07-.28-.14-1.18-.44-2.25-1.39-.83-.74-1.39-1.65-1.55-1.93-.16-.28-.02-.43.12-.57.12-.12.28-.32.42-.48.14-.16.18-.28.28-.46.09-.18.05-.34-.02-.48-.07-.14-.61-1.48-.84-2.02-.22-.53-.45-.46-.61-.47h-.52c-.18 0-.48.07-.73.34-.25.28-.96.94-.96 2.3 0 1.36.98 2.67 1.12 2.86.14.18 1.93 2.95 4.68 4.13.65.28 1.15.44 1.54.56.65.21 1.24.18 1.71.11.52-.08 1.64-.67 1.87-1.32.23-.65.23-1.21.16-1.32-.07-.11-.25-.18-.52-.32z" />
+    </svg>
+  </a>
+
+  <script src="js-script.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const loader = document.getElementById("page-loader");
+      if (loader) {
+        setTimeout(() => loader.classList.add("zoom-out"), 1500);
+        setTimeout(() => loader.style.display = "none", 2600);
+      }
+
+      // =========================
+      // GALLERY FILTER + PAGINATION
+      // =========================
+      const filterButtons = document.querySelectorAll(".gallery-filter-btn");
+      const galleryCards = Array.from(document.querySelectorAll(".gallery-card"));
+      const paginationWrap = document.querySelector(".gallery-pagination");
+
+      const ITEMS_PER_PAGE = 6;
+      let currentFilter = "all";
+      let currentPage = 1;
+
+      function getFilteredCards() {
+        return galleryCards.filter((card) => {
+          const types = (card.dataset.type || "").split(" ");
+          return currentFilter === "all" || types.includes(currentFilter);
+        });
+      }
+
+      function renderPagination(totalItems) {
+        if (!paginationWrap) return;
+
+        const totalPages = Math.ceil(totalItems / ITEMS_PER_PAGE);
+        paginationWrap.innerHTML = "";
+
+        if (totalPages <= 1) {
+          paginationWrap.style.display = "none";
+          return;
+        }
+
+        paginationWrap.style.display = "flex";
+
+        for (let i = 1; i <= totalPages; i++) {
+          const btn = document.createElement("button");
+          btn.type = "button";
+          btn.className = `gallery-page-link ${i === currentPage ? "active" : ""}`;
+          btn.textContent = i;
+
+          btn.addEventListener("click", () => {
+            currentPage = i;
+            renderGallery();
+            window.scrollTo({
+              top: document.querySelector(".gallery-section")?.offsetTop - 90 || 0,
+              behavior: "smooth"
+            });
+          });
+
+          paginationWrap.appendChild(btn);
+        }
+      }
+
+      function renderGallery() {
+        const filteredCards = getFilteredCards();
+        const totalPages = Math.max(1, Math.ceil(filteredCards.length / ITEMS_PER_PAGE));
+
+        if (currentPage > totalPages) {
+          currentPage = 1;
+        }
+
+        const start = (currentPage - 1) * ITEMS_PER_PAGE;
+        const end = start + ITEMS_PER_PAGE;
+        const visibleCards = filteredCards.slice(start, end);
+
+        galleryCards.forEach((card) => {
+          card.style.display = "none";
+        });
+
+        visibleCards.forEach((card) => {
+          card.style.display = "";
+        });
+
+        renderPagination(filteredCards.length);
+      }
+
+      filterButtons.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          filterButtons.forEach((b) => b.classList.remove("active"));
+          btn.classList.add("active");
+
+          currentFilter = btn.dataset.filter || "all";
+          currentPage = 1;
+          renderGallery();
+        });
+      });
+
+      renderGallery();
+
+      // =========================
+      // LIGHTBOX
+      // =========================
+      const lightbox = document.getElementById("galleryLightbox");
+      const lightboxBody = document.getElementById("galleryLightboxBody");
+      const lightboxCaption = document.getElementById("galleryLightboxCaption");
+      const lightboxCounter = document.getElementById("galleryLightboxCounter");
+      const lightboxClose = document.getElementById("galleryLightboxClose");
+      const lightboxOverlay = lightbox?.querySelector(".gallery-lightbox-overlay");
+      const prevBtn = document.getElementById("galleryPrevBtn");
+      const nextBtn = document.getElementById("galleryNextBtn");
+      const thumbsWrap = document.getElementById("galleryThumbs");
+
+      let currentGalleryImages = [];
+      let currentGalleryTitle = "";
+      let currentIndex = 0;
+      let currentMode = "single";
+
+      function renderThumbs() {
+        if (!thumbsWrap) return;
+        thumbsWrap.innerHTML = "";
+
+        if (currentMode !== "gallery" || currentGalleryImages.length <= 1) {
+          thumbsWrap.style.display = "none";
+          return;
+        }
+
+        thumbsWrap.style.display = "flex";
+
+        currentGalleryImages.forEach((imgSrc, index) => {
+          const btn = document.createElement("button");
+          btn.className = `gallery-thumb ${index === currentIndex ? "active" : ""}`;
+          btn.type = "button";
+          btn.setAttribute("aria-label", `Foto ${index + 1}`);
+          btn.innerHTML = `<img src="${imgSrc}" alt="Thumbnail ${index + 1}">`;
+
+          btn.addEventListener("click", () => {
+            currentIndex = index;
+            renderGalleryImage();
+          });
+
+          thumbsWrap.appendChild(btn);
+        });
+      }
+
+      function updateNavVisibility() {
+        const showNav = currentMode === "gallery" && currentGalleryImages.length > 1;
+        if (prevBtn) prevBtn.style.display = showNav ? "flex" : "none";
+        if (nextBtn) nextBtn.style.display = showNav ? "flex" : "none";
+      }
+
+      function renderGalleryImage() {
+        if (!lightboxBody || !lightboxCaption || !lightboxCounter) return;
+
+        const src = currentGalleryImages[currentIndex];
+        lightboxBody.innerHTML = `<img src="${src}" alt="${currentGalleryTitle}" class="gallery-lightbox-image">`;
+        lightboxCaption.textContent = currentGalleryTitle;
+        lightboxCounter.textContent = `${currentIndex + 1} / ${currentGalleryImages.length}`;
+        updateNavVisibility();
+        renderThumbs();
+      }
+
+      function openGallery(images, title) {
+        if (!lightbox) return;
+        currentMode = "gallery";
+        currentGalleryImages = images;
+        currentGalleryTitle = title;
+        currentIndex = 0;
+
+        renderGalleryImage();
+        lightbox.classList.add("open");
+        lightbox.setAttribute("aria-hidden", "false");
+      }
+
+      function openSingleImage(src, title) {
+        if (!lightbox || !lightboxBody || !lightboxCaption || !lightboxCounter) return;
+
+        currentMode = "single";
+        currentGalleryImages = [src];
+        currentGalleryTitle = title;
+        currentIndex = 0;
+
+        lightboxBody.innerHTML = `<img src="${src}" alt="${title}" class="gallery-lightbox-image">`;
+        lightboxCaption.textContent = title;
+        lightboxCounter.textContent = "";
+        updateNavVisibility();
+        renderThumbs();
+
+        lightbox.classList.add("open");
+        lightbox.setAttribute("aria-hidden", "false");
+      }
+
+      function openVideo(src, title) {
+        if (!lightbox || !lightboxBody || !lightboxCaption || !lightboxCounter) return;
+
+        currentMode = "video";
+        currentGalleryImages = [];
+        currentGalleryTitle = title;
+        currentIndex = 0;
+
+        lightboxBody.innerHTML = `
+        <video class="gallery-lightbox-video" controls autoplay>
+          <source src="${src}" type="video/mp4">
+          Browser Anda tidak mendukung video.
+        </video>
+      `;
+        lightboxCaption.textContent = title;
+        lightboxCounter.textContent = "";
+        updateNavVisibility();
+        renderThumbs();
+
+        lightbox.classList.add("open");
+        lightbox.setAttribute("aria-hidden", "false");
+      }
+
+      function showPrev() {
+        if (currentMode !== "gallery" || currentGalleryImages.length < 2) return;
+        currentIndex = (currentIndex - 1 + currentGalleryImages.length) % currentGalleryImages.length;
+        renderGalleryImage();
+      }
+
+      function showNext() {
+        if (currentMode !== "gallery" || currentGalleryImages.length < 2) return;
+        currentIndex = (currentIndex + 1) % currentGalleryImages.length;
+        renderGalleryImage();
+      }
+
+      function closeLightbox() {
+        if (!lightbox || !lightboxBody || !thumbsWrap) return;
+        lightbox.classList.remove("open");
+        lightbox.setAttribute("aria-hidden", "true");
+        lightboxBody.innerHTML = "";
+        thumbsWrap.innerHTML = "";
+        currentGalleryImages = [];
+        currentGalleryTitle = "";
+        currentIndex = 0;
+        currentMode = "single";
+      }
+
+      document.querySelectorAll(".gallery-open").forEach((item) => {
+        item.addEventListener("click", () => {
+          const kind = item.dataset.kind;
+          const title = item.dataset.title || "";
+
+          if (kind === "gallery") {
+            const images = JSON.parse(item.dataset.images || "[]");
+            if (images.length) openGallery(images, title);
+          } else if (kind === "image") {
+            openSingleImage(item.dataset.src, title);
+          } else if (kind === "video") {
+            openVideo(item.dataset.src, title);
+          }
+        });
+      });
+
+      prevBtn?.addEventListener("click", showPrev);
+      nextBtn?.addEventListener("click", showNext);
+      lightboxClose?.addEventListener("click", closeLightbox);
+      lightboxOverlay?.addEventListener("click", closeLightbox);
+
+      document.addEventListener("keydown", (e) => {
+        if (!lightbox?.classList.contains("open")) return;
+
+        if (e.key === "Escape") closeLightbox();
+        if (e.key === "ArrowLeft") showPrev();
+        if (e.key === "ArrowRight") showNext();
+      });
+
+      let touchStartX = 0;
+      let touchEndX = 0;
+
+      lightboxBody?.addEventListener("touchstart", (e) => {
+        touchStartX = e.changedTouches[0].clientX;
+      }, { passive: true });
+
+      lightboxBody?.addEventListener("touchend", (e) => {
+        touchEndX = e.changedTouches[0].clientX;
+        const diff = touchStartX - touchEndX;
+
+        if (Math.abs(diff) < 40) return;
+        if (diff > 0) showNext();
+        else showPrev();
+      }, { passive: true });
+    });
+  </script>
+</body>
+
+</html>
