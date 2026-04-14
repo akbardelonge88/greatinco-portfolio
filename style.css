@@ -3694,9 +3694,12 @@ header .container,
 }
 
 .fc-challenges-head {
-  text-align: center;
-  margin-bottom: 26px;
+  text-align: center !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
 
 .fc-challenges-title {
   max-width: 860px;
